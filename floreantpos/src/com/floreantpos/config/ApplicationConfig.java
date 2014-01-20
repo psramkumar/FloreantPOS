@@ -17,6 +17,7 @@ public class ApplicationConfig {
 	public static final String DATABASE_NAME = "DATABASE_NAME";
 	public static final String DATABASE_USER = "DATABASE_USER";
 	public static final String DATABASE_PASSWORD = "DATABASE_PASS";
+	public static String DB_PROFILE = "mysql";
 	
 	private final static Preferences pref = Preferences.userNodeForPackage(Application.class);
 	
@@ -24,7 +25,8 @@ public class ApplicationConfig {
 	
 	static {
 		try {
-			configuration = new PropertiesConfiguration(ApplicationConfig.class.getResource("/floreantpos.properties"));
+			configuration = new PropertiesConfiguration(ApplicationConfig.class.getClassLoader().getResource("/floreantpos.properties"));
+			DB_PROFILE = configuration.getProperty("DATABASE_PROFILE").toString();
 		} catch (ConfigurationException e) {
 			e.printStackTrace();
 		}
@@ -63,11 +65,11 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabaseURL() {
-		return pref.get(DATABASE_URL, "localhost");
+		return pref.get(DATABASE_URL, configuration.getProperty(DB_PROFILE+"DATABASE_URL").toString());
 	}
 
 	public static String getConnectionURL() {
-		return "jdbc:derby://" + getDatabaseURL() + ":" + getDatabasePort() + "/" + getDatabaseName(); 
+		return "jdbc:"+DB_PROFILE+"://" + getDatabaseURL() + ":" + getDatabasePort() + "/" + getDatabaseName();
 	}
 	
 	public static void setDatabaseURL(String url) {
@@ -75,7 +77,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabasePort() {
-		return pref.get(DATABASE_PORT, "1527");
+		return pref.get(DATABASE_PORT, configuration.getProperty(DB_PROFILE+"DATABASE_PORT").toString());
 	}
 	
 	public static void setDatabasePort(String port) {
@@ -83,7 +85,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabaseName() {
-		return pref.get(DATABASE_NAME, "posdb");
+		return pref.get(DATABASE_NAME, configuration.getProperty("DATABASE_NAME").toString());
 	}
 	
 	public static void setDatabaseName(String name) {
@@ -91,7 +93,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabaseUser() {
-		return pref.get(DATABASE_USER, "app");
+		return pref.get(DATABASE_USER, configuration.getProperty(DB_PROFILE+"DATABASE_USER").toString());
 	}
 	
 	public static void setDatabaseUser(String user) {
@@ -99,7 +101,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabasePassword() {
-		return pref.get(DATABASE_PASSWORD, "sa");
+		return pref.get(DATABASE_PASSWORD, configuration.getProperty(DB_PROFILE+"DATABASE_PASSWORD").toString());
 	}
 	
 	public static void setDatabasePassword(String password) {
@@ -107,8 +109,7 @@ public class ApplicationConfig {
 	}
 	
 	public static boolean checkDatabaseConnection(String url, String port, String databaseName, String user, String password) {
-		url = "jdbc:derby://" + url + ":" + port + "/" + databaseName; 
-		
+		url = "jdbc:"+DB_PROFILE+"://" + url + ":" + port + "/" + databaseName; 
 		new ClientDriver();
 		Connection connection = null; 
 		try {
@@ -129,4 +130,5 @@ public class ApplicationConfig {
 	public static PropertiesConfiguration getConfiguration() {
 		return configuration;
 	}
+	
 }
