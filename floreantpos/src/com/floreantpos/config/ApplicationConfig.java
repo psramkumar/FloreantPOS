@@ -25,8 +25,9 @@ public class ApplicationConfig {
 	
 	static {
 		try {
-			configuration = new PropertiesConfiguration(ApplicationConfig.class.getClassLoader().getResource("/floreantpos.properties"));
-			DB_PROFILE = configuration.getProperty("DATABASE_PROFILE").toString();
+			configuration = new PropertiesConfiguration(ApplicationConfig.class.getClassLoader().getResource("floreantpos.properties"));
+			//DB_PROFILE = configuration.getProperty("DATABASE_PROFILE").toString();
+			System.out.println(configuration);
 		} catch (ConfigurationException e) {
 			e.printStackTrace();
 		}
@@ -65,7 +66,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabaseURL() {
-		return pref.get(DATABASE_URL, configuration.getProperty(DB_PROFILE+"DATABASE_URL").toString());
+		return pref.get(DATABASE_URL, "localhost");
 	}
 
 	public static String getConnectionURL() {
@@ -77,7 +78,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabasePort() {
-		return pref.get(DATABASE_PORT, configuration.getProperty(DB_PROFILE+"DATABASE_PORT").toString());
+		return pref.get(DATABASE_PORT, "3306");
 	}
 	
 	public static void setDatabasePort(String port) {
@@ -85,7 +86,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabaseName() {
-		return pref.get(DATABASE_NAME, configuration.getProperty("DATABASE_NAME").toString());
+		return pref.get(DATABASE_NAME, "posdb");
 	}
 	
 	public static void setDatabaseName(String name) {
@@ -93,7 +94,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabaseUser() {
-		return pref.get(DATABASE_USER, configuration.getProperty(DB_PROFILE+"DATABASE_USER").toString());
+		return pref.get(DATABASE_USER, "root");
 	}
 	
 	public static void setDatabaseUser(String user) {
@@ -101,7 +102,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabasePassword() {
-		return pref.get(DATABASE_PASSWORD, configuration.getProperty(DB_PROFILE+"DATABASE_PASSWORD").toString());
+		return pref.get(DATABASE_PASSWORD, "root");
 	}
 	
 	public static void setDatabasePassword(String password) {
