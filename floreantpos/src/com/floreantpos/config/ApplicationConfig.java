@@ -26,7 +26,6 @@ public class ApplicationConfig {
 	static {
 		try {
 			configuration = new PropertiesConfiguration(ApplicationConfig.class.getClassLoader().getResource("floreantpos.properties"));
-			//DB_PROFILE = configuration.getProperty("DATABASE_PROFILE").toString();
 			System.out.println(configuration);
 		} catch (ConfigurationException e) {
 			e.printStackTrace();
@@ -86,7 +85,7 @@ public class ApplicationConfig {
 	}
 	
 	public static String getDatabaseName() {
-		return pref.get(DATABASE_NAME, "posdb");
+		return pref.get(DATABASE_NAME, "app");
 	}
 	
 	public static void setDatabaseName(String name) {
