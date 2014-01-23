@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>255b4ac4-3c55-4828-8ffb-647dfc7b1417.schema:APP</OriginalElement>
+  <nodes>
+    <node x="2076.854166666667" y="2804.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TRANSACTIONS</node>
+    <node x="1647.854166666667" y="3626.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_ITEM_MODIFIER</node>
+    <node x="1451.8026109307361" y="470.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_TYPE</node>
+    <node x="1527.854166666667" y="2782.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_ITEM</node>
+    <node x="964.8541666666669" y="2958.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_COUPON_DISCOUNT</node>
+    <node x="993.5414366883116" y="1718.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.ATTENDENCE_HISTORY</node>
+    <node x="642.1041666666667" y="437.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.SHIFT</node>
+    <node x="1262.5414366883115" y="1784.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.CASH_DRAWER_RESET_HISTORY</node>
+    <node x="130.75" y="426.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_MODIFIER_GROUP</node>
+    <node x="242.0" y="4032.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.COOKING_INSTRUCTION</node>
+    <node x="1878.9789366883117" y="437.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TERMINAL</node>
+    <node x="1775.3539366883117" y="1740.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.GRATUITY</node>
+    <node x="3407.654166666667" y="0.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.RESTAURANT</node>
+    <node x="459.58333333333337" y="191.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_GROUP</node>
+    <node x="0.0" y="4032.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.RESTAURANT_TABLE</node>
+    <node x="276.20833333333326" y="1066.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENUITEM_MODIFIERGROUP</node>
+    <node x="1574.3539366883117" y="1762.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.ACTION_HISTORY</node>
+    <node x="543.2083333333333" y="1099.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENUITEM_SHIFT</node>
+    <node x="2211.6541666666667" y="2327.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.PAYOUT_RECEPIENTS</node>
+    <node x="382.33333333333326" y="404.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_ITEM</node>
+    <node x="1312.6181006493505" y="1997.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET</node>
+    <node x="4075.654166666667" y="0.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.COUPON_AND_DISCOUNT</node>
+    <node x="2764.154166666667" y="1751.5">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.VOIDTICKETS</node>
+    <node x="465.58333333333337" y="0.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_CATEGORY</node>
+    <node x="2620.0675744878963" y="681.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.DRAWER_PULL_REPORT</node>
+    <node x="510.0" y="4032.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.VOID_REASONS</node>
+    <node x="83.0" y="213.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TAX</node>
+    <node x="1366.5526109307361" y="1011.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS</node>
+    <node x="3781.654166666667" y="0.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.PRINTER_CONFIGURATION</node>
+    <node x="0.0" y="1055.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_MODIFIER</node>
+    <node x="2433.654166666667" y="2327.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.PAYOUT_REASONS</node>
+    <node x="867.1041666666669" y="1132.5">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_USER_PERMISSION</node>
+    <node x="831.1041666666667" y="481.5">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_PERMISSION</node>
+    <node x="1233.854166666667" y="3002.5">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_COOKING_INSTRUCTION</node>
+    <node x="1734.104166666667" y="3369.0">255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKETITEM_MODIFIERGROUP</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TRANSACTIONS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.PAYOUT_REASONS">
+      <point x="195.5999999999999" y="-246.5" />
+      <point x="2516.9541666666664" y="2762.0" />
+      <point x="2526.154166666667" y="2762.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_ITEM" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_GROUP">
+      <point x="57.25" y="-103.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENUITEM_MODIFIERGROUP" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_ITEM">
+      <point x="82.33333333333331" y="-103.5" />
+      <point x="482.0416666666665" y="661.0" />
+      <point x="496.83333333333326" y="661.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENUITEM_MODIFIERGROUP" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_MODIFIER_GROUP">
+      <point x="-82.33333333333331" y="-103.5" />
+      <point x="317.375" y="661.0" />
+      <point x="298.75" y="661.0" />
+      <point x="56.0" y="81.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TRANSACTIONS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET">
+      <point x="-195.5999999999999" y="-246.5" />
+      <point x="2125.754166666667" y="2762.0" />
+      <point x="1932.9931006493505" y="2762.0" />
+      <point x="265.875" y="367.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.GRATUITY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS">
+      <point x="-52.25" y="-92.5" />
+      <point x="1827.6039366883117" y="1688.0" />
+      <point x="1661.9811823593075" y="1688.0" />
+      <point x="107.42857142857133" y="158.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.ATTENDENCE_HISTORY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.SHIFT">
+      <point x="-83.0" y="-114.5" />
+      <point x="1035.0414366883115" y="1698.0" />
+      <point x="747.7291666666667" y="1698.0" />
+      <point x="21.125" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_USER_PERMISSION" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_TYPE">
+      <point x="54.999999999999886" y="-37.0" />
+      <point x="1032.1041666666667" y="641.0" />
+      <point x="1486.0526109307361" y="641.0" />
+      <point x="-34.25" y="37.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS">
+      <point x="-59.083333333333485" y="-367.5" />
+      <point x="1608.034767316017" y="1972.0" />
+      <point x="1563.8539366883117" y="1972.0" />
+      <point x="1563.8539366883117" y="1698.0" />
+      <point x="1554.5526109307361" y="1698.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.ATTENDENCE_HISTORY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TERMINAL">
+      <point x="0.0" y="-114.5" />
+      <point x="1118.0414366883115" y="1698.0" />
+      <point x="1133.7847673160172" y="1698.0" />
+      <point x="1133.7847673160172" y="651.0" />
+      <point x="1893.062270021645" y="651.0" />
+      <point x="-70.41666666666674" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.GRATUITY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET">
+      <point x="52.25" y="92.5" />
+      <point x="1932.1039366883117" y="1972.0" />
+      <point x="1844.3681006493505" y="1972.0" />
+      <point x="177.25" y="-367.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TRANSACTIONS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS">
+      <point x="-97.80000000000018" y="-246.5" />
+      <point x="2223.554166666667" y="2752.0" />
+      <point x="2110.1914366883116" y="2752.0" />
+      <point x="2110.1914366883116" y="1678.0" />
+      <point x="1715.6954680735932" y="1678.0" />
+      <point x="161.1428571428571" y="158.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKETITEM_MODIFIERGROUP" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_ITEM">
+      <point x="63.5" y="-103.5" />
+      <point x="132.25" y="268.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.CASH_DRAWER_RESET_HISTORY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS">
+      <point x="0.0" y="-48.5" />
+      <point x="1397.5414366883115" y="1698.0" />
+      <point x="1447.1240395021646" y="1698.0" />
+      <point x="-107.42857142857156" y="158.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TRANSACTIONS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TERMINAL">
+      <point x="97.80000000000018" y="-246.5" />
+      <point x="2419.154166666667" y="2762.0" />
+      <point x="2423.1541666666667" y="2762.0" />
+      <point x="2423.1541666666667" y="651.0" />
+      <point x="2005.7289366883117" y="651.0" />
+      <point x="42.25" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_GROUP" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_CATEGORY">
+      <point x="-47.25" y="-81.5" />
+      <point x="506.83333333333337" y="166.0" />
+      <point x="510.83333333333337" y="166.0" />
+      <point x="-45.25" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_MODIFIER" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TAX">
+      <point x="-62.25" y="-114.5" />
+      <point x="62.25" y="661.0" />
+      <point x="120.25" y="661.0" />
+      <point x="-37.25" y="59.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.GRATUITY">
+      <point x="59.08333333333326" y="-367.5" />
+      <point x="1726.2014339826837" y="1972.0" />
+      <point x="1827.6039366883117" y="1972.0" />
+      <point x="-52.25" y="92.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_ITEM_MODIFIER" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKETITEM_MODIFIERGROUP">
+      <point x="92.25" y="-180.5" />
+      <point x="63.5" y="103.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENUITEM_SHIFT" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.SHIFT">
+      <point x="44.75" y="-70.5" />
+      <point x="677.4583333333333" y="661.0" />
+      <point x="663.2291666666667" y="661.0" />
+      <point x="-63.375" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TERMINAL">
+      <point x="125.33333333333326" y="-158.5" />
+      <point x="1679.8859442640694" y="661.0" />
+      <point x="1921.2289366883117" y="661.0" />
+      <point x="-42.25" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.GRATUITY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TERMINAL">
+      <point x="52.25" y="-92.5" />
+      <point x="1932.1039366883115" y="661.0" />
+      <point x="1949.3956033549784" y="661.0" />
+      <point x="-14.083333333333258" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TRANSACTIONS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.PAYOUT_RECEPIENTS">
+      <point x="0.0" y="-246.5" />
+      <point x="2321.354166666667" y="2762.0" />
+      <point x="2312.1541666666667" y="2762.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_COOKING_INSTRUCTION" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET">
+      <point x="0.0" y="-48.0" />
+      <point x="1370.854166666667" y="2762.0" />
+      <point x="1578.4931006493505" y="2762.0" />
+      <point x="-88.625" y="367.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_COUPON_DISCOUNT" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET">
+      <point x="0.0" y="-92.5" />
+      <point x="1089.354166666667" y="2752.0" />
+      <point x="1401.2431006493505" y="2752.0" />
+      <point x="-265.875" y="367.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TERMINAL">
+      <point x="295.41666666666674" y="-367.5" />
+      <point x="1962.5347673160172" y="1972.0" />
+      <point x="2000.7847673160172" y="1972.0" />
+      <point x="2000.7847673160172" y="661.0" />
+      <point x="1977.562270021645" y="661.0" />
+      <point x="14.083333333333258" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_TYPE">
+      <point x="0.0" y="-158.5" />
+      <point x="34.25" y="37.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET_ITEM" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET">
+      <point x="0.0" y="-268.5" />
+      <point x="1792.354166666667" y="2762.0" />
+      <point x="1755.7431006493505" y="2762.0" />
+      <point x="88.625" y="367.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.ATTENDENCE_HISTORY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS">
+      <point x="83.0" y="-114.5" />
+      <point x="1201.0414366883115" y="1688.0" />
+      <point x="1393.409753787879" y="1688.0" />
+      <point x="-161.1428571428571" y="158.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.VOIDTICKETS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.DRAWER_PULL_REPORT">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="488.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_MODIFIER" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_MODIFIER_GROUP">
+      <point x="62.25" y="-114.5" />
+      <point x="-56.0" y="81.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.SHIFT">
+      <point x="-125.33333333333326" y="-158.5" />
+      <point x="1429.2192775974029" y="631.0" />
+      <point x="789.9791666666667" y="631.0" />
+      <point x="63.375" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_ITEM" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TAX">
+      <point x="-57.25" y="-103.5" />
+      <point x="439.58333333333326" y="379.0" />
+      <point x="194.75" y="379.0" />
+      <point x="37.25" y="59.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENUITEM_SHIFT" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.MENU_ITEM">
+      <point x="-44.75" y="-70.5" />
+      <point x="587.9583333333333" y="661.0" />
+      <point x="573.1666666666665" y="661.0" />
+      <point x="76.33333333333326" y="103.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TICKET" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.SHIFT">
+      <point x="-295.41666666666697" y="-367.5" />
+      <point x="1371.7014339826835" y="1972.0" />
+      <point x="736.7291666666667" y="1972.0" />
+      <point x="736.7291666666667" y="661.0" />
+      <point x="705.4791666666667" y="661.0" />
+      <point x="-21.125" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.ACTION_HISTORY" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USERS">
+      <point x="0.0" y="-70.5" />
+      <point x="1664.8539366883117" y="1698.0" />
+      <point x="1608.2668966450217" y="1698.0" />
+      <point x="53.71428571428555" y="158.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.DRAWER_PULL_REPORT" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.TERMINAL">
+      <point x="0.0" y="-488.5" />
+      <point x="2898.154166666667" y="641.0" />
+      <point x="2033.8956033549784" y="641.0" />
+      <point x="70.41666666666674" y="70.5" />
+    </edge>
+    <edge source="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_USER_PERMISSION" target="255b4ac4-3c55-4828-8ffb-647dfc7b1417.table:APP.USER_PERMISSION">
+      <point x="-55.000000000000114" y="-37.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="401.9896367943152" y="567.3615771812081" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
